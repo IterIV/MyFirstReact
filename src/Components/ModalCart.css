@@ -1,0 +1,58 @@
+#cartModal .modal-content {
+  padding: 30px;
+}
+.cartModal_Header_Text {
+  font-size: 30px;
+  font-weight: bold;
+}
+#cartModal .table th {
+  border-top: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  opacity: 0.6;
+}
+#cartModal .table td {
+  vertical-align: middle;
+}
+#cartModal .cartModal_colInfo {
+  width: 50%;
+  padding: 10px;
+}
+#cartModal .cartModal_colInfo_img {
+  width: 18%;
+  margin-right: 10px;
+}
+.cartModal_colInfo_name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.cartModal_colCount {
+  text-align: center;
+  width: 15%;
+}
+.cartModal_colCount_number {
+  padding: 5px 10px 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0px 10px;
+  opacity: 0.7;
+}
+.cartModal_colCount_increase,
+.cartModal_colCount_decrease {
+  cursor: pointer;
+}
+.cartModal_colCount_increase:hover {
+  color: #1597e5;
+}
+.cartModal_colCount_decrease:hover {
+  color: #ffa400;
+}
+.cartModal_colMoney {
+  width: 13%;
+}
+.cartModal_remove {
+  cursor: pointer;
+}
+.cartModal_remove:hover {
+  color: #e02401;
+}
